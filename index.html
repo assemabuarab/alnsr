@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALNSR ALJAREH - متجر للأحذية والشنط</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.hero {
+    background-color: #009688;
+    color: #fff;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#products {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.product-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+  
+    <header>
+        <div class="logo">
+            <h1>ALNSR ALJAREH</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">الرئيسية</a></li>
+                <li><a href="#products">المنتجات</a></li>
+                <li><a href="#about">من نحن</a></li>
+                <li><a href="#contact">تواصل معنا</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <h2>مرحبًا بكم في ALNSR ALJAREH</h2>
+            <p>أفضل المنتجات من الأحذية والشنط بأسعار مذهلة</p>
+        </div>
+    </section>
+
+    <section id="products">
+        <h2>منتجاتنا</h2>
+        <div class="product-grid">
+            <div class="product-item">
+                <img src="shoe1.jpg" alt="حذاء 1">
+                <h3>حذاء رياضي</h3>
+                <p>أفضل جودة وتصميم عصري.</p>
+            </div>
+            <div class="product-item">
+                <img src="bag1.jpg" alt="شنطة 1">
+                <h3>شنطة جلدية</h3>
+                <p>مصنوعة من أجود الخامات.</p>
+            </div>
+            <!-- يمكنك إضافة المزيد من المنتجات هنا -->
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>من نحن</h2>
+        <p>ALNSR ALJAREH هو متجر يعرض أفضل المنتجات من الأحذية والشنط...</p>
+    </section>
+
+    <section id="contact">
+        <h2>تواصل معنا</h2>
+        <p>يمكنك التواصل معنا عبر البريد الإلكتروني: info@alnsr-aljareh.com</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 ALNSR ALJAREH. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
